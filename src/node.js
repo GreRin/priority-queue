@@ -12,15 +12,11 @@ class Node {
 		if (!this.left) {
 			this.right = node;
 		}
-		return node;
+		return ;
 	}
 
 	removeChild(node) {
-		this.left = node;
-		if (this.left === false) {
-			this.right = node;
-		}
-		return node;
+
 	}
 
 	remove() {
